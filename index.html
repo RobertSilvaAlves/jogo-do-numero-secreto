@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="stylesheet" href="style.css" />
+  <title>Jogo do Número Secreto</title>
+</head>
+
+<body>
+  <div class="container">
+    <h1 class="container_titulo">Adivinhe o Número Secreto</h1>
+    <input class="chute" type="number" name="digita_numero" id="digita_numero"
+      placeholder="Digite um número entre 1 e 10" /><br />
+    <div class="container_botao">
+      <button class="botao_chute" type="submit" id="botao_chute">Chutar</button>
+      <button class="reset" type="reset">Jogar Novamente</button>
+    </div>
+    <p class="acertou_ou_errou">🎯 Você Consegue Advinhar?</p>
+    <p class="tentativas_info">Tentativas: 0</p>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+
+</html>

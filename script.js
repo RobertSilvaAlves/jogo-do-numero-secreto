@@ -30,7 +30,7 @@ btnChute.addEventListener('click', () => {
 
     // Verifica acerto
     if (chute === numeroAleatorio) {
-        mensagem.textContent = `🎉 Você acertou em ${tentativas} tentativa(s)!`;
+        mensagem.textContent = `🎉 Você acertou! Parabéns!`;
         btnChute.disabled = true;
         mensagem.classList.add('correto');
     } else if (chute < numeroAleatorio) {
